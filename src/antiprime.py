@@ -34,11 +34,12 @@ def main(x) :
 	## "anti-prime" or "not anti-prime"
 	return(res)
 import sys
-x= int(sys.argv [1])
+x= int(sys.argv[1])
 
 ## DO NOT REMOVE THIS LINE BELOW
 if __name__ == "__main__" :
 	print(main(x))
+
 
 	## WHERE THE FIRST ARGUMENT IS A POSITIVE INTEGER NUMBER FOR WHICH
 	## YOU WANT TO FIGURE OUT WHETHER IS ANTI-PRIME OR NOT
