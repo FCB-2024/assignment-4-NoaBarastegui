@@ -1,8 +1,7 @@
 ## ADD WHATEVER ARGUMENTS ARE NECESSARY TO THE MAIN FUNCTION
 ## IN THE SAME ORDER AS THE ARGUMENTS ARE TAKEN FROM THE
 ## COMMAND LINE SPECIFIED BELOW
-import sys
-x=int(sys.argv[1])
+
 def main(x) :
 	## YOU CODE SHOULD START HERE AST THE SAME
 	## IDENTATION AS THIS COMMENT
@@ -39,6 +38,8 @@ def main(x) :
 
 ## DO NOT REMOVE THIS LINE BELOW
 if __name__ == "__main__" :
+	import sys
+	x=int(sys.argv[1])
 	print(main(x))
 
 
